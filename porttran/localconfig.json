@@ -1,0 +1,17 @@
+{
+    "user_name": "admin",
+    "password": "admin",
+    "web_theme": "8",
+    "web_port": 62438,
+    "statistical_refresh_time": 30,
+    "is_open_log": false,
+    "expire": true,
+    "is_open_general_swap": false,
+    "cert_file_type": "",
+    "developer_fee_account_url": "222fJahyaU3AdoV7/S0pSN83nDz8Z34fiiDENOI0aUDWba0w9xwlRNxshSHbMyBI",
+    "coin_type": "ETH",
+    "confuse": {
+        "ip": "192.168.2.135",
+        "api_port": 80
+    }
+}

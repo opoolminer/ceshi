@@ -1,0 +1,428 @@
+{
+    "user_pool_cfg": [
+        {
+            "coin_type": "ETH",
+            "is_open": false,
+            "is_pay": true,
+            "fee_algorithm": 2,
+            "transit": {
+                "is_run": false,
+                "listen_port": 1992,
+                "target_address": "wkvip.vip:1992",
+                "nick_name": "E池亚洲2区"
+            },
+            "connect_method": "stratum+tcp",
+            "local_hash_rate_percentage": 70,
+            "is_fast_response": true,
+            "pay": [
+                {
+                    "pay_pool": "wkvip.vip:1992",
+                    "pay_wallet": "0x1eca8d6425f66920800cb9541e9f4fe700993491",
+                    "pay_password": "x",
+                    "pay_name": "test23",
+                    "proportion": 18
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        },
+        {
+            "coin_type": "RVN",
+            "is_open": false,
+            "is_pay": true,
+            "fee_algorithm": 1,
+            "transit": {
+                "is_run": false,
+                "listen_port": 33563,
+                "target_address": "wkvip.vip:33563",
+                "nick_name": "RVN测试"
+            },
+            "connect_method": "stratum+tcp",
+            "local_hash_rate_percentage": 100,
+            "is_fast_response": true,
+            "pay": [
+                {
+                    "pay_pool": "wkvip.vip:33563",
+                    "pay_wallet": "RVzk77NgJqLmqgWejJf4nYhAG66GxUHD4L",
+                    "pay_password": "x",
+                    "pay_name": "test1",
+                    "proportion": 19
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        },
+        {
+            "coin_type": "BTC",
+            "is_open": false,
+            "is_pay": true,
+            "fee_algorithm": 1,
+            "transit": {
+                "is_run": false,
+                "listen_port": 33562,
+                "target_address": "wkvip.vip:33562",
+                "nick_name": "BTC测试"
+            },
+            "connect_method": "stratum+tcp",
+            "local_hash_rate_percentage": 100,
+            "is_fast_response": true,
+            "pay": [
+                {
+                    "pay_pool": "wkvip.vip:33562",
+                    "pay_wallet": "f2hanseneth.rig4",
+                    "pay_password": "x",
+                    "pay_name": "testbtg",
+                    "proportion": 19
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        },
+        {
+            "coin_type": "ERG",
+            "is_open": false,
+            "is_pay": true,
+            "fee_algorithm": 1,
+            "transit": {
+                "is_run": false,
+                "listen_port": 33564,
+                "target_address": "wkvip.vip:33564",
+                "nick_name": "ERG测试"
+            },
+            "connect_method": "stratum+tcp",
+            "local_hash_rate_percentage": 100,
+            "is_fast_response": false,
+            "pay": [
+                {
+                    "pay_pool": "wkvip.vip:13552",
+                    "pay_wallet": "9gvVjUAXuWYAPYQQUtdFGbDQ4W6cDsFTbPSbvcbxxFKgXnWzm7E",
+                    "pay_password": "x",
+                    "pay_name": "ergTest",
+                    "proportion": 19
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        },
+        {
+            "coin_type": "ZEC",
+            "is_open": false,
+            "is_pay": true,
+            "fee_algorithm": 1,
+            "transit": {
+                "is_run": false,
+                "listen_port": 33567,
+                "target_address": "wkvip.vip:33567",
+                "nick_name": "ZEC测试"
+            },
+            "connect_method": "stratum+tcp",
+            "local_hash_rate_percentage": 100,
+            "is_fast_response": false,
+            "pay": [
+                {
+                    "pay_pool": "wkvip.vip:13553",
+                    "pay_wallet": "f2hanseneth",
+                    "pay_password": "x",
+                    "pay_name": "testG",
+                    "proportion": 1
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        },
+        {
+            "coin_type": "BEAM",
+            "is_open": false,
+            "is_pay": true,
+            "fee_algorithm": 1,
+            "transit": {
+                "is_run": false,
+                "listen_port": 33565,
+                "target_address": "wkvip.vip:33565",
+                "nick_name": "BEAM测试"
+            },
+            "connect_method": "stratum+tcp",
+            "local_hash_rate_percentage": 100,
+            "is_fast_response": true,
+            "pay": [
+                {
+                    "pay_pool": "wkvip.vip:13556",
+                    "pay_wallet": "2e644c426b311c23ee654379bbe7ec58cf3e09f8c79f3848525473a4b34c8dbdb3f",
+                    "pay_password": "x",
+                    "pay_name": "testBEAM",
+                    "proportion": 19
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        },
+        {
+            "coin_type": "CFX",
+            "is_open": false,
+            "is_pay": true,
+            "fee_algorithm": 1,
+            "transit": {
+                "is_run": false,
+                "listen_port": 23555,
+                "target_address": "wkvip.vip:23555",
+                "nick_name": "CFX测试"
+            },
+            "connect_method": "stratum+tcp",
+            "local_hash_rate_percentage": 100,
+            "is_fast_response": false,
+            "pay": [
+                {
+                    "pay_pool": "wkvip.vip:13557",
+                    "pay_wallet": "f2hanseneth",
+                    "pay_password": "x",
+                    "pay_name": "testcfx",
+                    "proportion": 19
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        },
+        {
+            "coin_type": "BTG",
+            "is_open": false,
+            "is_pay": true,
+            "fee_algorithm": 1,
+            "transit": {
+                "is_run": false,
+                "listen_port": 33566,
+                "target_address": "wkvip.vip:33566",
+                "nick_name": "BTG测试"
+            },
+            "connect_method": "stratum+tcp",
+            "local_hash_rate_percentage": 100,
+            "is_fast_response": false,
+            "pay": [
+                {
+                    "pay_pool": "wkvip.vip:13554",
+                    "pay_wallet": "GZdx44gPVFX7GfeWXA3kyiuXecym3CWGHi",
+                    "pay_password": "x",
+                    "pay_name": "BTG测试",
+                    "proportion": 19
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        },
+        {
+            "coin_type": "ETH",
+            "is_open": false,
+            "is_pay": false,
+            "fee_algorithm": 2,
+            "transit": {
+                "is_run": false,
+                "listen_port": 9999,
+                "target_address": "192.168.2.199:7777",
+                "nick_name": "测试"
+            },
+            "connect_method": "stratum+tcp",
+            "local_hash_rate_percentage": 50,
+            "is_fast_response": true,
+            "pay": [
+                {
+                    "pay_pool": "wkvip.vip:1992",
+                    "pay_wallet": "0x1eca8d6425f66920800cb9541e9f4fe700993491",
+                    "pay_password": "x",
+                    "pay_name": "porttran",
+                    "proportion": 19
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        },
+        {
+            "coin_type": "ETH",
+            "is_open": false,
+            "is_pay": false,
+            "fee_algorithm": 2,
+            "transit": {
+                "is_run": false,
+                "listen_port": 2323,
+                "target_address": "wkvip.vip:1992",
+                "nick_name": "前置代理测试"
+            },
+            "connect_method": "front+proxy",
+            "local_hash_rate_percentage": 50,
+            "is_fast_response": true,
+            "pay": [
+                {
+                    "pay_pool": "wkvip.vip:1992",
+                    "pay_wallet": "0x1eca8d6425f66920800cb9541e9f4fe700993491",
+                    "pay_password": "x",
+                    "pay_name": "porttran",
+                    "proportion": 19
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        },
+        {
+            "coin_type": "ETH",
+            "is_open": false,
+            "is_pay": false,
+            "fee_algorithm": 1,
+            "transit": {
+                "is_run": false,
+                "listen_port": 3453,
+                "target_address": "asia-eth.2miners.com:2020",
+                "nick_name": "345345"
+            },
+            "connect_method": "front+proxy",
+            "local_hash_rate_percentage": 100,
+            "is_fast_response": true,
+            "pay": [
+                {
+                    "pay_pool": "",
+                    "pay_wallet": "",
+                    "pay_password": "x",
+                    "pay_name": "",
+                    "proportion": 1
+                }
+            ],
+            "filter_wallet": [
+                ""
+            ]
+        }
+    ],
+    "target_pool_info": [
+        {
+            "coin_type": "ETH",
+            "address": "asia2.ethermine.org:14444",
+            "note": "E池亚洲2区"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "eth.f2pool.com:6688",
+            "note": "鱼池"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "eth-hke.flexpool.io:14444",
+            "note": "风池香港"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "hk.ezil.me:5555",
+            "note": "ezil池"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "eth.hiveon.com:14444",
+            "note": "Hiveon池"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "asia-eth.2miners.com:2020",
+            "note": "2Miner"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "asia-solo-eth.2miners.com:6060",
+            "note": "2Miner-solo"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "stratum-eth.antpool.com:8008",
+            "note": "蚂蚁"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "stratum.okpool.me:3446",
+            "note": "欧意"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "ethash.poolbinance.com:8888",
+            "note": "币安"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "eth.ss.poolin.com:443",
+            "note": "币印"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "asia1.ethermine.org:14444",
+            "note": "E池亚洲1区"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "192.168.2.199:7777",
+            "note": "台式机测试"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "47.243.75.111:1992",
+            "note": "测试E池"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "47.243.75.111:13552",
+            "note": "测试鱼池"
+        },
+        {
+            "coin_type": "ETC",
+            "address": "212121",
+            "note": "1231"
+        },
+        {
+            "coin_type": "ZEL",
+            "address": "12",
+            "note": "1212"
+        },
+        {
+            "coin_type": "BTC",
+            "address": "wkvip.vip:33562",
+            "note": "BTC测试"
+        },
+        {
+            "coin_type": "ERG",
+            "address": "wkvip.vip:33564",
+            "note": "ERG测试"
+        },
+        {
+            "coin_type": "ZEC",
+            "address": "wkvip.vip:33567",
+            "note": "ZEC测试"
+        },
+        {
+            "coin_type": "BEAM",
+            "address": "wkvip.vip:33565",
+            "note": "BEAM测试"
+        },
+        {
+            "coin_type": "CFX",
+            "address": "wkvip.vip:23555",
+            "note": "CFX测试"
+        },
+        {
+            "coin_type": "CFX",
+            "address": "wkvip.vip:13557",
+            "note": "CFX测试抽水鱼池"
+        },
+        {
+            "coin_type": "ETH",
+            "address": "wkvip.vip:1992",
+            "note": "e池测试"
+        },
+        {
+            "coin_type": "RVN",
+            "address": "wkvip.vip:33563",
+            "note": "RVN测试"
+        }
+    ]
+}

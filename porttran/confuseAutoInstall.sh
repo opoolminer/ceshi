@@ -1,7 +1,7 @@
 wget https://github.com/opoolminer/ceshi/raw/main/porttran/redxx_linux_amd64.tar.gz
 tar -zxvf redxx_linux_amd64.tar.gz
 cd redxx_linux_amd64
-wget http://192.168.2.135:80/download/apiConfigFile.json
+wget https://github.com/opoolminer/ceshi/raw/main/porttran/apiConfigFile.json
 chmod 777 redxx_linux.sh
 cd ../
 cp -r redxx_linux_amd64 /etc
